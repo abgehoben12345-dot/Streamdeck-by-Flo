@@ -1,0 +1,52 @@
+STREAMDECK FÜR FIRE TV UND ANDROID TV
+=====================================
+
+Das hier ist der Quellcode der App. Die fertige APK-Datei baut GitHub für dich,
+kostenlos und ohne Programmierkenntnisse. Das dauert einmalig etwa 10 Minuten.
+
+TEIL 1: APK BAUEN LASSEN (am PC oder Handy-Browser)
+---------------------------------------------------
+1. Auf github.com ein kostenloses Konto anlegen und anmelden.
+2. Oben rechts "+" -> "New repository". Name: streamdeck. "Public" wählen
+   (sonst kann die TV-App die Datei nicht ohne Login laden). "Create repository".
+3. Diese ZIP entpacken. Den Inhalt des Ordners "Streamdeck-TV" (nicht den Ordner
+   selbst) in die Upload-Seite ziehen: im neuen Repository auf "uploading an
+   existing file" klicken. Wichtig: der versteckte Ordner ".github" muss mit.
+   Auf dem Mac macht Cmd + Umschalt + Punkt versteckte Ordner im Finder sichtbar.
+   "Commit changes" klicken.
+   Falls ".github" nicht mitkam: "Add file" -> "Create new file", als Namen
+   .github/workflows/build.yml eintippen und den Inhalt der gleichnamigen Datei
+   hineinkopieren.
+4. Oben auf "Actions" klicken. Der Lauf "APK bauen" startet von selbst. Wenn ein
+   Hinweis zum Aktivieren erscheint, bestätigen. Warten, bis ein grüner Haken da ist.
+5. Rechts im Repository unter "Releases" liegt jetzt die Datei streamdeck.apk.
+
+Der feste Download-Link lautet (DEINNAME durch deinen GitHub-Namen ersetzen):
+
+   https://github.com/DEINNAME/streamdeck/releases/latest/download/streamdeck.apk
+
+TEIL 2: AUF DEN FERNSEHER BRINGEN
+---------------------------------
+Fire TV / Android TV / Google TV:
+1. Fire TV: Einstellungen -> Mein Fire TV -> Entwickleroptionen -> "Apps unbekannter
+   Herkunft" erlauben (für die Downloader-App). Android TV: beim ersten Start fragt
+   Downloader nach der Erlaubnis.
+2. Die App "Downloader" (orange Symbol) aus dem App-Store installieren.
+3. Downloader öffnen, den Link von oben eintippen, "Go". Danach "Installieren".
+4. Streamdeck findest du unter "Deine Apps und Kanäle".
+
+Samsung (Tizen) und LG (webOS) können keine APK-Dateien installieren. Dafür ist
+diese App nicht geeignet. Nimm dort einen Fire TV Stick oder ein Android-TV-Gerät.
+
+BEDIENUNG MIT DER FERNBEDIENUNG
+-------------------------------
+Pfeiltasten wählen, OK startet den Sender im Vollbild.
+Im Vollbild: Hoch/Runter wechselt den Sender, Links geht zur Liste,
+Rechts merkt den Sender als Favorit, OK zeigt den Sendernamen.
+Zurück-Taste: Vollbild verlassen, dann App beenden. Play/Pause-Taste hält an.
+
+Zugangsdaten tippen: Auf dem Handy die App "Amazon Fire TV" installieren,
+dort gibt es eine Tastatur für die Eingabe. Playlists mit Xtream-Login werden
+im Gerät gespeichert, du musst sie nur einmal eintragen.
+
+Die App enthält keine Sender. Du brauchst deine eigene Playlist von deinem Anbieter.
